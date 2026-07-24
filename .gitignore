@@ -1,23 +1,44 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+# 🚀 Laxa - Advanced AI Coding Assistant
+
+Laxa is a next-generation AI-powered coding tool that goes beyond Replit, offering advanced features for developers to write, execute, and collaborate on code seamlessly.
+
+## ✨ Key Features
+
+- **Advanced Code Editor** - Syntax highlighting, themes, multi-tab support
+- **AI-Powered Assistance** - Context-aware code suggestions and completions
+- **Multi-Language Support** - Python, JavaScript, TypeScript, Java, C++, Go, Rust, and more
+- **Real-time Code Execution** - Run code instantly in isolated environments
+- **Smart Debugging** - AI-assisted debugging with error analysis
+- **Version Control Integration** - Git integration for version management
+- **Collaboration Features** - Real-time multiplayer coding
+- **Advanced Terminal** - Built-in terminal with command execution
+- **Template Library** - Pre-built project templates
+- **API Integration** - Connect with external APIs and services
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, TypeScript, Vite, TailwindCSS, Monaco Editor
+- **Backend**: Node.js, Express, PostgreSQL
+- **AI**: OpenAI API, LLM Integration
+- **Execution**: Docker, Sandbox Environment
+- **Real-time**: Socket.io for collaboration
+- **DevOps**: Docker, GitHub Actions
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/sahanivikash8090-bit/laxa.git
+cd laxa
+
+# Install dependencies
+npm install
+
+# Setup environment variables
+cp .env.example .env
+
+# Start with Docker
+docker-compose up -d
+
+# Start development server
+npm run dev
